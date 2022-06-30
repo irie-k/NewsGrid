@@ -1,6 +1,7 @@
 @import url(root.css);
 @import url(utility.css);
 @import url(nav.css);
+@import url(showcase.css);
 
 *,
 *::before,
@@ -11,13 +12,14 @@
 }
 
 body {
-  background-color: var(--clr-light);
+  background-color: hsl(var(--clr-grey__900));
+  color: hsl(var(--clr-grey__50));
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
 }
 
 a {
-  color: #333;
+  color: hsl(var(--clr-grey__50));
   text-decoration: none;
 }
 
