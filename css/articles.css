@@ -1,0 +1,18 @@
+#home__articles .articles__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+#home__articles .articles__container > *:first-child,
+#home__articles .articles__container > *:last-child {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1 / span 2;
+  gap: 1rem;
+}
+
+#home__articles .articles__container > *:last-child {
+  grid-column: 2 / span 2;
+}
