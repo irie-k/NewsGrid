@@ -18,14 +18,29 @@
   padding: 1rem;
 }
 
-.bg__dark {
-  background-color: hsl(var(--clr-grey__900));
-  color: hsl(var(--clr-grey__50));
+.bg__light {
+  background-color: hsl(var(--clr-grey__300));
+  color: hsl(var(--clr-grey__900));
+}
+
+.bg__light h1,
+.bg__light h2,
+.bg__light h3,
+.bg__light a,
+.bg__primary h1,
+.bg__primary h2,
+.bg__primary h3,
+.bg__primary a,
+.bg__secondary h1,
+.bg__secondary h2,
+.bg__secondary h3,
+.bg__secondary a {
+  color: hsl(var(--clr-grey__900));
 }
 
 .bg__primary {
-  background-color: hsl(var(--clr-primary));
-  color: hsl(var(--clr-grey__50));
+  background-color: hsl(var(--clr-primary) / 0.8);
+  color: hsl(var(--clr-grey__900));
 }
 
 .bg__secondary {
