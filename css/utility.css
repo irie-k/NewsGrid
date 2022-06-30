@@ -1,0 +1,12 @@
+.category {
+  --clr-sports: #f99500;
+  --clr-entertainment: #a66bbe;
+  --clr-tech: #009cff;
+}
+
+.container {
+  overflow: hidden;
+  margin: auto;
+  max-width: var(--max-width);
+  padding: 0 2rem;
+}
