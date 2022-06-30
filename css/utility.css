@@ -1,12 +1,91 @@
-.category {
-  --clr-sports: #f99500;
-  --clr-entertainment: #a66bbe;
-  --clr-tech: #009cff;
-}
+@import url(main.css);
 
+/*------------------------------------*\
+  #CONTAINERS
+\*------------------------------------*/
 .container {
   overflow: hidden;
   margin: auto;
   max-width: var(--max-width);
   padding: 0 2rem;
+}
+
+.card {
+  background-color: hsl(var(--clr-grey__800));
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 1rem;
+}
+
+/*------------------------------------*\
+  #CATEGORIES
+\*------------------------------------*/
+.category {
+  --clr-entertainment: #a66bbe;
+  --clr-tech: #009cff;
+}
+
+.category {
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 0.4rem;
+  text-transform: uppercase;
+  font-size: 0.55rem;
+}
+
+.category__sports {
+  background-color: hsl(var(--clr-primary));
+}
+
+.category__entertainment {
+  background-color: var(--clr-entertainment);
+}
+
+.category__tech {
+  background-color: var(--clr-tech);
+}
+
+/*------------------------------------*\
+  #BUTTONS
+\*------------------------------------*/
+.btn {
+  display: inline-block;
+  background-color: hsl(var(--clr-grey__900));
+  color: hsl(var(--clr-grey__50));
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  border: 2px solid hsl(var(--clr-primary) / 0);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+  border: 2px solid hsl(var(--clr-primary));
+}
+
+.btn__light {
+  background-color: hsl(var(--clr-grey__50));
+  color: hsl(var(--clr-grey__900));
+}
+
+.btn__block {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
