@@ -1,0 +1,36 @@
+#footer__main {
+  background-color: hsl(var(--clr-grey__800));
+  color: hsl(var(--clr-grey__50));
+}
+
+#footer__main img {
+  width: 150px;
+}
+
+#footer__main a {
+  color: hsl(var(--clr-grey__50));
+}
+
+#footer__main .footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+#footer__main .footer__container > *:last-child {
+  background-color: hsl(var(--clr-grey__900));
+  grid-column: 1 / span 4;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+#footer__main .footer__container input[type='email'] {
+  margin-bottom: 0.5rem;
+  width: 90%;
+  padding: 0.5rem;
+}
+
+#footer__main .footer__container input[type='submit'] {
+  width: 90%;
+}
