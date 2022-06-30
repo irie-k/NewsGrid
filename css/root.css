@@ -1,0 +1,289 @@
+:root {
+  /*------------------------------------*\
+    #COLORS
+  \*------------------------------------*/
+  --clr-blue-grey__50: 204 15% 94%;
+  --clr-blue-grey__100: 198 16% 84%;
+  --clr-blue-grey__200: 200 15% 73%;
+  --clr-blue-grey__300: 200 16% 62%;
+  --clr-blue-grey__400: 200 15% 54%;
+  --clr-blue-grey__500: 200 18% 46%;
+  --clr-blue-grey__600: 199 18% 40%;
+  --clr-blue-grey__700: 199 18% 33%;
+  --clr-blue-grey__800: 200 18% 26%;
+  --clr-blue-grey__900: 200 19% 18%;
+
+  --clr-grey__50: 0 0% 98%;
+  --clr-grey__100: 0 0% 96%;
+  --clr-grey__200: 0 0% 93%;
+  --clr-grey__300: 0 0% 88%;
+  --clr-grey__400: 0 0% 74%;
+  --clr-grey__500: 0 0% 62%;
+  --clr-grey__600: 0 0% 46%;
+  --clr-grey__700: 0 0% 38%;
+  --clr-grey__800: 0 0% 26%;
+  --clr-grey__900: 0 0% 13%;
+
+  --clr-brown__50: 20 16% 93%;
+  --clr-brown__100: 16 16% 81%;
+  --clr-brown__200: 15 15% 69%;
+  --clr-brown__300: 16 15% 56%;
+  --clr-brown__400: 16 18% 47%;
+  --clr-brown__500: 16 25% 38%;
+  --clr-brown__600: 15 25% 34%;
+  --clr-brown__700: 14 26% 29%;
+  --clr-brown__800: 11 26% 24%;
+  --clr-brown__900: 9 28% 19%;
+
+  --clr-deep-orange__50: 6 71% 95%;
+  --clr-deep-orange__100: 14 100% 87%;
+  --clr-deep-orange__200: 14 100% 78%;
+  --clr-deep-orange__300: 14 100% 70%;
+  --clr-deep-orange__400: 14 100% 63%;
+  --clr-deep-orange__500: 14 100% 57%;
+  --clr-deep-orange__600: 14 91% 54%;
+  --clr-deep-orange__700: 14 80% 50%;
+  --clr-deep-orange__800: 14 82% 46%;
+  --clr-deep-orange__900: 14 88% 40%;
+  --clr-deep-orange__100--accent: 14 100% 75%;
+  --clr-deep-orange__200--accent: 14 100% 63%;
+  --clr-deep-orange__400--accent: 14 100% 50%;
+  --clr-deep-orange__700--accent: 12 100% 43%;
+
+  --clr-orange__50: 37 100% 94%;
+  --clr-orange__100: 36 100% 85%;
+  --clr-orange__200: 36 100% 75%;
+  --clr-orange__300: 36 100% 65%;
+  --clr-orange__400: 36 100% 57%;
+  --clr-orange__500: 36 100% 50%;
+  --clr-orange__600: 33 100% 49%;
+  --clr-orange__700: 30 100% 48%;
+  --clr-orange__800: 27 100% 47%;
+  --clr-orange__900: 21 100% 45%;
+  --clr-orange__100--accent: 38 100% 75%;
+  --clr-orange__200--accent: 34 100% 63%;
+  --clr-orange__400--accent: 34 100% 50%;
+  --clr-orange__700--accent: 26 100% 50%;
+
+  --clr-yellow__50: 55 100% 95%;
+  --clr-yellow__100: 54 100% 88%;
+  --clr-yellow__200: 54 100% 81%;
+  --clr-yellow__300: 54 100% 73%;
+  --clr-yellow__400: 54 100% 67%;
+  --clr-yellow__500: 54 100% 62%;
+  --clr-yellow__600: 49 98% 60%;
+  --clr-yellow__700: 43 96% 58%;
+  --clr-yellow__800: 37 95% 56%;
+  --clr-yellow__900: 28 92% 53%;
+  --clr-yellow__100--accent: 60 100% 78%;
+  --clr-yellow__200--accent: 60 100% 50%;
+  --clr-yellow__400--accent: 55 100% 50%;
+  --clr-yellow__700--accent: 50 100% 50%;
+
+  --clr-lime__50: 66 71% 95%;
+  --clr-lime__100: 65 69% 86%;
+  --clr-lime__200: 66 71% 77%;
+  --clr-lime__300: 66 70% 68%;
+  --clr-lime__400: 66 70% 61%;
+  --clr-lime__500: 66 70% 54%;
+  --clr-lime__600: 64 60% 50%;
+  --clr-lime__700: 62 61% 44%;
+  --clr-lime__800: 60 63% 38%;
+  --clr-lime__900: 54 70% 30%;
+  --clr-lime__100--accent: 65 100% 75%;
+  --clr-lime__200--accent: 65 100% 63%;
+  --clr-lime__400--accent: 73 100% 50%;
+  --clr-lime__700--accent: 75 100% 46%;
+
+  --clr-light-green__50: 88 52% 94%;
+  --clr-light-green__100: 88 51% 86%;
+  --clr-light-green__200: 88 50% 76%;
+  --clr-light-green__300: 88 50% 67%;
+  --clr-light-green__400: 88 50% 60%;
+  --clr-light-green__500: 88 50% 53%;
+  --clr-light-green__600: 89 46% 48%;
+  --clr-light-green__700: 92 48% 42%;
+  --clr-light-green__800: 95 49% 36%;
+  --clr-light-green__900: 103 56% 26%;
+  --clr-light-green__100--accent: 88 100% 78%;
+  --clr-light-green__200--accent: 88 100% 67%;
+  --clr-light-green__400--accent: 93 100% 51%;
+  --clr-light-green__700--accent: 97 81% 48%;
+
+  --clr-green__50: 125 39% 94%;
+  --clr-green__100: 122 38% 84%;
+  --clr-green__200: 122 37% 74%;
+  --clr-green__300: 123 38% 64%;
+  --clr-green__400: 123 38% 57%;
+  --clr-green__500: 122 39% 49%;
+  --clr-green__600: 123 41% 45%;
+  --clr-green__700: 123 43% 39%;
+  --clr-green__800: 123 46% 34%;
+  --clr-green__900: 124 55% 24%;
+  --clr-green__100--accent: 137 77% 85%;
+  --clr-green__200--accent: 151 82% 68%;
+  --clr-green__400--accent: 151 100% 45%;
+  --clr-green__700--accent: 145 100% 39%;
+
+  --clr-teal__50: 177 41% 91%;
+  --clr-teal__100: 175 41% 79%;
+  --clr-teal__200: 174 42% 65%;
+  --clr-teal__300: 174 42% 51%;
+  --clr-teal__400: 174 63% 40%;
+  --clr-teal__500: 174 100% 29%;
+  --clr-teal__600: 174 100% 27%;
+  --clr-teal__700: 173 100% 24%;
+  --clr-teal__800: 173 100% 21%;
+  --clr-teal__900: 170 100% 15%;
+  --clr-teal__100--accent: 166 100% 83%;
+  --clr-teal__200--accent: 166 100% 70%;
+  --clr-teal__400--accent: 165 82% 51%;
+  --clr-teal__700--accent: 172 100% 37%;
+
+  --clr-cyan__50: 187 72% 93%;
+  --clr-cyan__100: 187 71% 82%;
+  --clr-cyan__200: 187 72% 71%;
+  --clr-cyan__300: 187 71% 59%;
+  --clr-cyan__400: 187 71% 50%;
+  --clr-cyan__500: 187 100% 42%;
+  --clr-cyan__600: 187 100% 38%;
+  --clr-cyan__700: 186 100% 33%;
+  --clr-cyan__800: 185 100% 28%;
+  --clr-cyan__900: 182 100% 20%;
+  --clr-cyan__100--accent: 180 100% 76%;
+  --clr-cyan__200--accent: 180 100% 55%;
+  --clr-cyan__400--accent: 186 100% 50%;
+  --clr-cyan__700--accent: 188 100% 42%;
+
+  --clr-light-blue__50: 199 94% 94%;
+  --clr-light-blue__100: 199 92% 85%;
+  --clr-light-blue__200: 199 92% 74%;
+  --clr-light-blue__300: 199 91% 64%;
+  --clr-light-blue__400: 199 92% 56%;
+  --clr-light-blue__500: 199 98% 48%;
+  --clr-light-blue__600: 200 97% 45%;
+  --clr-light-blue__700: 201 98% 41%;
+  --clr-light-blue__800: 202 98% 37%;
+  --clr-light-blue__900: 206 99% 31%;
+  --clr-light-blue__100--accent: 198 100% 75%;
+  --clr-light-blue__200--accent: 199 100% 63%;
+  --clr-light-blue__400--accent: 199 100% 50%;
+  --clr-light-blue__700--accent: 203 100% 46%;
+
+  --clr-blue__50: 205 87% 94%;
+  --clr-blue__100: 207 89% 86%;
+  --clr-blue__200: 207 90% 77%;
+  --clr-blue__300: 207 89% 68%;
+  --clr-blue__400: 207 90% 61%;
+  --clr-blue__500: 207 90% 54%;
+  --clr-blue__600: 208 79% 51%;
+  --clr-blue__700: 210 79% 46%;
+  --clr-blue__800: 212 80% 42%;
+  --clr-blue__900: 216 85% 34%;
+  --clr-blue__100--accent: 217 100% 75%;
+  --clr-blue__200--accent: 218 100% 63%;
+  --clr-blue__400--accent: 218 100% 58%;
+  --clr-blue__700--accent: 224 100% 58%;
+
+  --clr-indigo__50: 231 44% 94%;
+  --clr-indigo__100: 232 45% 84%;
+  --clr-indigo__200: 231 44% 74%;
+  --clr-indigo__300: 230 44% 64%;
+  --clr-indigo__400: 231 44% 56%;
+  --clr-indigo__500: 231 48% 48%;
+  --clr-indigo__600: 232 50% 45%;
+  --clr-indigo__700: 232 54% 41%;
+  --clr-indigo__800: 233 57% 37%;
+  --clr-indigo__900: 235 66% 30%;
+  --clr-indigo__100--accent: 231 100% 77%;
+  --clr-indigo__200--accent: 231 99% 66%;
+  --clr-indigo__400--accent: 231 99% 62%;
+  --clr-indigo__700--accent: 231 99% 59%;
+
+  --clr-deep-purple__50: 264 45% 94%;
+  --clr-deep-purple__100: 261 46% 84%;
+  --clr-deep-purple__200: 261 46% 74%;
+  --clr-deep-purple__300: 262 47% 63%;
+  --clr-deep-purple__400: 262 47% 55%;
+  --clr-deep-purple__500: 262 52% 47%;
+  --clr-deep-purple__600: 260 54% 45%;
+  --clr-deep-purple__700: 258 58% 42%;
+  --clr-deep-purple__800: 255 61% 39%;
+  --clr-deep-purple__900: 251 69% 34%;
+  --clr-deep-purple__100--accent: 262 100% 77%;
+  --clr-deep-purple__200--accent: 256 100% 65%;
+  --clr-deep-purple__400--accent: 259 100% 56%;
+  --clr-deep-purple__700--accent: 265 100% 46%;
+
+  --clr-purple__50: 292 44% 93%;
+  --clr-purple__100: 291 46% 83%;
+  --clr-purple__200: 291 47% 71%;
+  --clr-purple__300: 291 47% 60%;
+  --clr-purple__400: 291 47% 51%;
+  --clr-purple__500: 291 64% 42%;
+  --clr-purple__600: 287 65% 40%;
+  --clr-purple__700: 282 68% 38%;
+  --clr-purple__800: 277 70% 35%;
+  --clr-purple__900: 267 75% 31%;
+  --clr-purple__100--accent: 291 95% 75%;
+  --clr-purple__200--accent: 291 96% 62%;
+  --clr-purple__400--accent: 291 100% 49%;
+  --clr-purple__700--accent: 280 100% 50%;
+
+  --clr-pink__50: 340 80% 94%;
+  --clr-pink__100: 339 81% 85%;
+  --clr-pink__200: 340 82% 76%;
+  --clr-pink__300: 340 83% 66%;
+  --clr-pink__400: 340 82% 59%;
+  --clr-pink__500: 340 82% 52%;
+  --clr-pink__600: 338 78% 48%;
+  --clr-pink__700: 336 78% 43%;
+  --clr-pink__800: 334 79% 38%;
+  --clr-pink__900: 328 81% 29%;
+  --clr-pink__100--accent: 340 100% 75%;
+  --clr-pink__200--accent: 340 100% 63%;
+  --clr-pink__400--accent: 339 100% 48%;
+  --clr-pink__700--accent: 333 84% 42%;
+
+  --clr-red__50: 351 100% 96%;
+  --clr-red__100: 354 100% 90%;
+  --clr-red__200: 0 73% 77%;
+  --clr-red__300: 0 69% 67%;
+  --clr-red__400: 1 83% 63%;
+  --clr-red__500: 4 90% 58%;
+  --clr-red__600: 1 77% 55%;
+  --clr-red__700: 0 65% 51%;
+  --clr-red__800: 0 66% 47%;
+  --clr-red__900: 0 73% 41%;
+  --clr-red__100--accent: 5 100% 75%;
+  --clr-red__200--accent: 0 100% 66%;
+  --clr-red__400--accent: 348 100% 55%;
+  --clr-red__700--accent: 0 100% 42%;
+
+  /*------------------------------------*\
+    #TUTORIAL-COLORS
+  \*------------------------------------*/
+
+  --clr-primary: #c72727;
+  --clr-secondary: #f99500;
+  --clr-light: #f3f3f3;
+  --clr-dark: #333;
+
+  /* Max Width */
+  --max-width: 1100px;
+
+  -clr-amber__50: 46 100% 94%;
+  -clr-amber__100: 45 100% 85%;
+  -clr-amber__200: 45 100% 75%;
+  -clr-amber__300: 46 100% 65%;
+  -clr-amber__400: 45 100% 58%;
+  -clr-amber__500: 45 100% 51%;
+  -clr-amber__600: 42 100% 50%;
+  -clr-amber__700: 38 100% 50%;
+  -clr-amber__800: 34 100% 50%;
+  -clr-amber__900: 26 100% 50%;
+  -clr-amber__100--accent: 48 100% 75%;
+  -clr-amber__200--accent: 47 100% 63%;
+  -clr-amber__400--accent: 46 100% 50%;
+  -clr-amber__700--accent: 40 100% 50%;
+}
