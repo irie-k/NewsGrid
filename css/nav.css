@@ -1,6 +1,6 @@
 #main-nav {
   z-index: 2;
-  background-color: #fff;
+  background-color: hsl(var(--clr-grey__800));
   position: sticky;
   top: 0;
 }
@@ -22,13 +22,19 @@
 }
 
 #main-nav ul li a {
+  color: hsl(var(--clr-grey__200));
+  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  margin: 0 5px;
   padding: 0.75rem;
   font-weight: 700;
 }
 
 #main-nav ul li a.current {
-  background-color: var(--clr-primary);
-  color: #fff;
+  background-color: hsl(var(--clr-primary));
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -36,9 +42,13 @@
   -o-border-radius: 5px;
 }
 
-#main-nav ul li a:hover {
-  background-color: var(--clr-light);
-  color: var(--clr-dark);
+#main-nav ul li a:not(.current):hover {
+  background-color: hsl(var(--clr-grey__700));
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 #main-nav .social {
@@ -46,6 +56,6 @@
 }
 
 #main-nav .social i {
-  color: #777;
+  color: hsl(var(--clr-grey__500));
   margin-right: 0.5rem;
 }
