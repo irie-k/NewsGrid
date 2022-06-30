@@ -95,6 +95,26 @@
 .list li a:hover {
   background-color: hsl(var(--clr-grey__900));
 }
+
+/* Inner Page Container */
+.container__page {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.container__page > *:first-child {
+  grid-row: 1 / span 3;
+}
+
+.container__page > *:last-child * {
+  color: hsl(var(--clr-grey__50));
+}
+
+.container__page a {
+  color: hsl(var(--clr-grey__50));
+}
 /*------------------------------------*\
   #CATEGORIES
 \*------------------------------------*/
