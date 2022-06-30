@@ -78,6 +78,10 @@
   padding: 0.5rem 0;
 }
 
+.list li:last-child {
+  border: none;
+}
+
 .list li a {
   transition: all 200ms ease;
   -webkit-transition: all 200ms ease;
