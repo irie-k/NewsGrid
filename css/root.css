@@ -264,10 +264,8 @@
     #TUTORIAL-COLORS
   \*------------------------------------*/
 
-  --clr-primary: #c72727;
+  --clr-primary: 180 67% 45%;
   --clr-secondary: #f99500;
-  --clr-light: #f3f3f3;
-  --clr-dark: #333;
 
   /* Max Width */
   --max-width: 1100px;
